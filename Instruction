@@ -5,8 +5,9 @@ Dollar
 
 Проект запускается через класс DollarApplication как обычное Spring boot application или через Docker
 
-Команда для запуска через Docker
-docker run --rm -it -p 10000:10000 dollar
+Команда для загрузки и последующего запуска через Docker
+docker pull voronkovmm/dollar
+docker run --rm -it -p 10000:10000 voronkovmm/dollar
 
 Сервер работает на порту 10000.
 Для просмотра gif необходимо перейти по localhost:10000
